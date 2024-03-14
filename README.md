@@ -22,9 +22,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 The Blog preview card challenge tasks participants with building a user interface for generating and displaying QR codes within a web application. Key aspects of the challenge include:
 
-    Designing a visually appealing and responsive UI using HTML and CSS.
-    See hover states for interactive elements.
-    Measuring your Designing skills.
+1. Designing a visually appealing and responsive UI using HTML and CSS.
+2. See hover states for interactive elements.
+3. Measuring your Designing skills.
 
 ### Screenshot
 
