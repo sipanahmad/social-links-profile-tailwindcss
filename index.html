@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+	 <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+    @layer base {
+  	@font-face {
+   		 font-family: 'Inter';
+  		 font-display: swap;
+   		 src: url(/assets/fonts/Inter-VariableFont_slnt,wght.ttf) format('truetype');
+  		}
+	}	
+  </style>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'green': 'hsl(75, 94%, 57%)',
+            'neutral-white':'hsl(0, 0%, 100%)',
+	    'neutral-grey': 'hsl(0, 0%, 20%)',
+	    'neutral-dark-grey': 'hsl(0, 0%, 12%)',
+	    'neutral-off-black': 'hsl(0, 0%, 8%)',
+	    'anchor-special':'hsl(228, 45%, 44%)',
+          },
+          fontFamily:{
+          	inter:['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
+
+
+   </head>
+<body class="relative font-inter text-sm bg-neutral-off-black h-screen flex flex-col justify-center items-center text-neutral-white font-normal">
+	<main role="main" class="w-[320px] sm:w-[375px] bg-neutral-dark-grey p-6 rounded-2xl flex flex-col items-center space-y-2">
+		<img src="./assets/images/Profile.png"/ alt="avatar" class="w-24 rounded-full ">
+		<h1 class="text-2xl font-bold">Sipan Ahmad</h1>
+		<span class="font-semibold text-green"> Erbil, Kurdistan Iraq</span>
+		<q class="text-[13px] sm:text-sm py-4">Front-end developer and avid reader.</q>
+		<ul class="font-semibold w-full text-center flex flex-col space-y-4 pb-2">
+			<li class="bg-neutral-grey py-3 rounded-lg hover:text-neutral-grey hover:bg-green duration-300 cursor-pointer"><a href="https://github.com/sipanahmad">GitHub</a></li>
+			<li class="bg-neutral-grey py-3 rounded-lg hover:text-neutral-grey hover:bg-green duration-300 cursor-pointer"><a href="https://www.frontendmentor.io/profile/sipanahmad">Frontend Mentor</a></li>
+			<li class="bg-neutral-grey py-3 rounded-lg hover:text-neutral-grey hover:bg-green duration-300 cursor-pointer"><a href="https://www.linkedin.com/in/ahmadsipan/">LinkedIn</a></li>
+			<li class="bg-neutral-grey py-3 rounded-lg hover:text-neutral-grey hover:bg-green duration-300 cursor-pointer"><a href="#">Twitter</a></li>
+			<li class="bg-neutral-grey py-3 rounded-lg hover:text-neutral-grey hover:bg-green duration-300 cursor-pointer"><a href="#">Instagram</a></li>
+		</ul>
+	</main>
+ 
+    <footer role="contentinfo" class="text-[11px]  text-center absolute bottom-0">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-green">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/ahmadsipan/" target="_blank" class="text-green">Sipan Ahmad</a>.
+  </footer>
+</body>
+</html>
